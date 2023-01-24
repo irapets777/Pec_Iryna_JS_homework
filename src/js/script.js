@@ -7,7 +7,7 @@
 
 // const year = new Date().getFullYear();
 // const userYear = prompt('enter your year of birth:');
-// // alert(`Your age, ${year - userYear}!`);
+// alert(`Your age, ${year - userYear}!`);
 
 // if (userYear<0){
 //     alert('Error, enter your correct age!')
@@ -67,13 +67,32 @@
 
 /*Task 8*/
 
-const yourMoney = prompt('enter the money amount:');
-const chocolatePrice = prompt('enter the price of chocolate:');
-const amountOfChocolate = Math.floor(yourMoney / chocolatePrice)
-if (yourMoney<=0 || chocolatePrice<=0){
-    alert('Error, enter correct data!')
-}else{
-    alert(`You can by ${amountOfChocolate} of chocolates, the rest of you ${yourMoney -(amountOfChocolate * chocolatePrice)}`);
+// const yourMoney = prompt('enter the money amount:');
+// const chocolatePrice = prompt('enter the price of chocolate:');
+// const amountOfChocolate = Math.floor(yourMoney / chocolatePrice)
+// if (yourMoney<=0 || chocolatePrice<=0){
+//     alert('Error, enter correct data!')
+// }else{
+//     alert(`You can by ${amountOfChocolate} of chocolates, the rest of you ${yourMoney - (amountOfChocolate * chocolatePrice)}`);
+// }
+
+/*Task 9*/
+
+// const threeDigitNumber = prompt('enter a three digit number:')
+// if(threeDigitNumber <100 || threeDigitNumber >999){
+//     alert('Error, enter correct data!')
+// }else{
+//     alert(`Your palinder: ${threeDigitNumber.split('').reverse().join('')}`);
+// }
+
+/*Task 10*/
+
+const integerNumber = prompt('enter a integer number:');
+
+if(integerNumber % 2 == 0){
+    alert('even')
+}else if(integerNumber % 2 != 0){
+    alert('odd');
 }
 
 
