@@ -1,7 +1,12 @@
 /*Task 1*/
 
-let userName = prompt('enter your name:');
-alert(`Hello, ${userName}!`)
+const userName = prompt('enter your name:');
+if (userName.length == 0) {
+  alert(`Нou haven't entered a name!`);
+  window.location.reload();
+}else{
+  alert(`Hello, ${userName}!`)
+}
 
 /*Task 2*/
 
